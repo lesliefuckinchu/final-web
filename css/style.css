@@ -1,0 +1,261 @@
+.logo {
+	float: center;
+  padding:0 20px;
+  display:block;
+     margin:0 auto;
+
+}
+#wrapper {
+    position: relative;
+    width: 80%; 
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.nav {
+    display: block;
+    list-style:none;
+    text-align:center;
+    position: relative;
+    
+    
+}
+.active {
+  width: 100px;
+    height: 0.2px; 
+    border: 5px solid;
+    padding: 5px;
+    margin: 10px;
+    border-color: #B58E9B;
+    background-color: #FAE2E2;
+}
+.products {
+    width: 100px;
+    height: 0.2px; 
+    border: 5px;
+    border-color: #B58E9B;
+    border-style: solid;
+    height:-10px; 
+    padding: 5px;
+    margin: 10px;
+    background-color: #FAE2E2;
+    position: relative;
+}
+.learn {
+    width: 90px;
+    height: 0.2px; 
+    border: 5px;
+    border-color: #B58E9B;
+    border-style: solid;
+    padding: 5px;
+    margin: 10px;
+    background-color: #FAE2E2;
+}
+.contact {
+    width: 100px;
+    height: 0.2px; 
+    border: 5px solid;
+    padding: 5px;
+    margin: 10px;
+    border-color: #B58E9B;
+    background-color: #FAE2E2;
+}
+
+.nav li{
+    display:inline;
+
+}
+.nav a{
+    display: inline-block;
+    padding:25px;
+    color: #FF8ED4;
+    text-decoration: none;
+    font-family: 'Helvetica';
+    font-weight: normal;
+    font-weight: 600;
+}
+.homepic {
+  float: right;
+  margin-right: -400px;
+  margin-top: -420px;
+  margin-bottom: 150px;
+}
+.plink{
+  text-decoration: none;
+  font-style: italic;
+
+}
+/* unvisited link */
+a:link {
+    color: #FF8ED4;
+}
+
+/* visited link */
+a:visited {
+    color: #FF8ED4;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: #6D2F54;
+    background-color: #E9B4E1;
+}
+.plink a:hover {
+    color: none;
+}
+
+/* selected link */
+a:active {
+    color: #FF8ED4;
+} 
+.article{
+	width: 45%; 
+	float: left; 
+	text-align:justify; 
+	margin-left: 45px; 
+	margin-bottom: 25px;
+	margin-top: 55px;
+}
+.heading{
+	font-family: 'Helvetica';
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+  margin-left: 300px;
+  color: #C19AB0; 
+
+
+}
+.content {
+	font-family: 'Helvetica';
+	margin-top: 5px;
+	margin-bottom: 150px;
+  margin-left: 300px;
+	line-height: normal;
+  color: #C19AB0;
+  font-weight: 400;
+
+}
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: -50px;
+   width: 1440px;
+   text-align: center;
+   font-size: 12px;
+
+   
+	
+
+}
+.pfooter {
+	font-family: 'Helvetica'; 
+	font-size: 12px;
+  color: #C994AF;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.wrapper div, .paragraph div{
+  flex: 20px;
+  border: 0px;
+  padding: 60px 40px;
+  margin: 30px;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  top: -250px;
+
+
+
+}
+.productst div, .text div{
+  flex: 20px;
+  border: 0px;
+  padding: 40px 10px;
+  margin: 20px;
+  text-align: center;
+  position: relative;
+  top: -10px;
+}
+.productst , .text{
+  display:flex;
+  font-family: 'Helvetica';
+  height: 600px;
+  color: #C994AF; 
+  margin-left: 0px;
+
+}
+.productst p , .text p {
+    text-align: justify;
+    margin-top: 70px;
+}
+.productst div img, .text div img {
+  width: 350px;
+  height: 325px;
+}
+
+.productst a {
+  font-size: 20px;
+  color: #C994AF;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: -100px;
+  position: absolute;
+}
+.productst a:hover {
+  color: #FF75D3
+}
+
+.text a {
+    font-size: 20px;
+  color: #C994AF;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: -100px;
+  position: absolute;
+}
+.text a:hover {
+  color: #FF75D3
+}
+.intro {
+    font-family: 'Helvetica';
+    font-size: 14px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: -10px;
+  line-height: normal;
+  color: #C994AF;
+  font-weight: lighter;
+  text-align: center;
+}
+.learnart{
+  width: 45%; 
+  float: center; 
+  text-align:center; 
+  margin-left: 340px; 
+  margin-bottom: 25px;
+  margin-top: 200px;
+}
+.learnt{
+  font-family: 'Helvetica';
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: -100px;
+  margin-left: 100px;
+  color: #C994AF; 
+
+}
+.learntext {
+  font-family: 'Helvetica';
+  margin-top: 20px;
+  margin-bottom: 150px;
+  margin-left: 100px;
+  line-height: normal;
+  color: #C994AF;
+  font-weight: lighter;
+}
